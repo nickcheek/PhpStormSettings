@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="53e384da-fc0e-439a-822f-811ab97a6638" name="nicktest.site" url="http://nicktest.site">
+        <fileTransfer host="nicktest.site" port="22" privateKey="$USER_HOME$/Desktop/FOLDERS/pem/nicholascheek.pem" rootFolder="/var/www/nicktest.site" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a30ea0c2-0f7f-419a-b8a7-f48f881a4519" name="Nicktest" url="http://127.0.0.1:8000">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

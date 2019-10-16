@@ -1,0 +1,30 @@
+<templateSet group="bootstrap">
+  <template name="b4-$" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;title&gt;$1$&lt;/title&gt;&#10;    &lt;!-- Required meta tags --&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;&#10;&#10;    &lt;!-- Bootstrap CSS --&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;$2$&quot; integrity=&quot;$3$&quot; crossorigin=&quot;anonymous&quot;&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;      $10$$END$&#10;    &lt;!-- Optional JavaScript --&gt;&#10;    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;&#10;    &lt;script src=&quot;$4$&quot; integrity=&quot;$5$&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;$6$&quot; integrity=&quot;$7$&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;$8$&quot; integrity=&quot;$9$&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;" description="Bootstrap master template" toReformat="true" toShortenFQNames="false">
+    <variable name="1" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="7" expression="&quot;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="8" expression="&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="&quot;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="10" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GSP" value="true" />
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="b4-card-align" value="&lt;div class=&quot;card text-$3$&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;$1$&quot; alt=&quot;$2$&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$4$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$5$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="card align" toReformat="true" toShortenFQNames="false">
+    <variable name="1" expression="&quot;holder.js/100px180/&quot;" defaultValue="" alwaysStopAt="false" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="enum(&quot;left&quot;,&quot;center&quot;,&quot;right&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="&quot;Body&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GSP" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>
